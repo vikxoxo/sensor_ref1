@@ -6,11 +6,11 @@ I used two different datasets- One is for binary classification and anothere is 
 * [Gas sensor array under dynamic gas mixtures Data Set (Binary Classification)](http://archive.ics.uci.edu/ml/datasets/gas+sensor+array+under+dynamic+gas+mixtures)
 * [Gas Sensor Array Drift Dataset Data Set (Multi-class Classification)](https://archive.ics.uci.edu/ml/datasets/gas+sensor+array+drift+dataset)
 
-For classification purpose, I preprocessed and made the datasets simpler. That dataset can be found here:
+For classification purpose, I preprocessed and made the datasets simpler. The modified datasets can be found here:
 [Dataset](https://drive.google.com/drive/folders/1gJy8f3twHl9rANqUMcxG1YMxvbV-cijN?usp=sharing)
 
 ## Data Processing Workflow
-On both dataset, I applied PCA and t-SNE dimension reduction techniques in order to plot and visualize the relationships between different attributes. I followed the same workflow and applied the same classifiers on both of the dataset. I applied 10 classical classifiers( non-neural network based) and 1 keras based vanilla neural network classifier. 
+On both datasets, I applied PCA and t-SNE dimension reduction techniques in order to plot and visualize the relationships between different attributes. I followed the same workflow and applied the same classifiers on both of the dataset. I applied 10 classical classifiers( non-neural network based) and 1 keras based vanilla neural network classifier. 
 
 ### Classical Classifiers
 1. K-Nearest Neighbor (KNN)
